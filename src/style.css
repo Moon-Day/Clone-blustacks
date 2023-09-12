@@ -1,0 +1,73 @@
+.nav-bar{
+    background-color: aqua;
+    display: flex;
+    margin: 20px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar-menu{
+    border: 1px solid black;
+
+}
+.nav-bar-menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-bar-menu ul li {
+    padding: 0 20px;
+}
+
+
+.nav-bar-idioma{
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    width: 30px;
+    height: 30px;
+}
+
+.estilo-circulo{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+
+.linguas{
+  
+
+}
+
+.hamburguer{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    margin: 0 10px;
+}
+
+.hamburguer div{
+    background-color: black;
+    width: 30px;
+    height: 5px;
+    margin: 3px auto;
+    border-radius: 10px;
+}
+
+.lista{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+/* ---------------------------------- */
