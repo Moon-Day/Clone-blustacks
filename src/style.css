@@ -1,73 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
 .nav-bar{
-    background-color: aqua;
     display: flex;
-    margin: 20px 0;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    height: 75px;
+    background-color: rgba(0, 0, 0, 0.357);
 }
 
-.nav-bar-menu{
-    border: 1px solid black;
+.menu{
+    width: 50%;
+    height: 100%;
 
 }
-.nav-bar-menu ul{
-    display: flex;
-    list-style: none;
-}
-
-.nav-bar-menu ul li {
-    padding: 0 20px;
-}
-
-
-.nav-bar-idioma{
-    display: flex;
-    align-items: center;
-}
-
-.search{
-    width: 30px;
-    height: 30px;
-}
-
-.estilo-circulo{
+.menu nav {
     width: 100%;
     height: 100%;
-    border: 1px solid black;
-    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
-
-.linguas{
-  
-
+.menu nav ul{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row-reverse;
+    list-style: none;
+}
+.menu nav ul li{
+    padding: 0 10px;
 }
 
+.menu nav ul li a {
+
+    text-decoration: none;
+}
+
+.menu2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    border: 1px solid ;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.menu2:hover .lista{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.278);
+    margin-top: 400px;
+    padding: 0px 30px;
+}
 .hamburguer{
-    width: 30px;
-    height: 30px;
-    border: 1px solid black;
-    margin: 0 10px;
+    width: 25px;
+    height: 25px;
 }
 
 .hamburguer div{
+    width: 100%;
+    height: 3px;
+    margin: 3px 0;
     background-color: black;
-    width: 30px;
-    height: 5px;
-    margin: 3px auto;
-    border-radius: 10px;
 }
 
 .lista{
+
     display: none;
+    position: absolute;
+   
+}
+.lista ul{
+    list-style: none;
+}
+.lista ul li{
+    padding:  10px;
+}
+
+/* ============================= */
+
+
+.secao1{
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+}
+
+.secao1 div{
+    width: 50%;
+    height: 100%;
+}
+
+.parte1-secao1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parte1-secao1 button{
+    padding: 30px 50px;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+/* ====================== */
+
+
+.secao2{
+    background-color: blueviolet;
+    width: 100vw;
+    height: 70vh;
+    
+    justify-content: center;
+}
+.titulo-secao2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.secao2 h2{
+    margin: 15px 0;
+}
+
+.lista-secao2 ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.lista-secao2 ul li{
+    margin: 10px;
+    transition: 0.5s;
+    border-bottom: 5px solid rgba(0, 0, 0, 0);
+}
+.lista-secao2 li:hover{
+    border-bottom: 5px solid ;
 }
 
 
+.itens-secao2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+}
 
-
-
-
-
-
-
-/* ---------------------------------- */
+.itens-secao2 div{
+    border-radius: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 400px;
+    background-color: black;
+    transition: 0.3s linear;
+}
+.itens-secao2 div:hover{
+    margin-bottom: 50px;
+    
+}
